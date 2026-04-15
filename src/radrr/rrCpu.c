@@ -24,14 +24,24 @@
  * SOFTWARE.
  */
 
-#ifndef __RADRR_CPUH__
-#define __RADRR_CPUH__
+#include "rrCpu.h"
 
-#include "rrCore.h"
+S32 rrGetCPUCoreByPrecedence(S32 precedence)
+{
+    return 0;
+}
 
-S32 rrGetCPUCoreByPrecedence(S32 precedence);
-S32 rrGetSlowerCPUCoreByPrecedence(S32 precedence);
-S64 rrGetTotalCPUs(void);
-S64 rrGetTotalSlowerCPUs(void);
+S32 rrGetSlowerCPUCoreByPrecedence(S32 precedence)
+{
+    return 0;
+}
 
-#endif //__RADRR_CPUH__
+S64 rrGetTotalCPUs(void)
+{
+    return 1;
+}
+
+S64 rrGetTotalSlowerCPUs(void)
+{
+    return 1;
+}
