@@ -19,5 +19,5 @@ gdraw = library(
 )
 gdraw_dep = declare_dependency(
   include_directories : include_directories_gdraw,
-  link_with : [ radrr ],
+  link_with : [ gdraw ],
 )

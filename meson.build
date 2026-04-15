@@ -9,8 +9,8 @@ project(
 #
 # Subdirs
 #
-subdir(src/radrr)
-subdir(src/gdraw)
-subdir(src/Iggy)
-subdir(src/IggyPerfmon)
-subdir(src/IggyTelemetry)
+subdir('src/radrr')
+subdir('src/gdraw')
+subdir('src/Iggy')
+subdir('src/IggyPerfmon')
+subdir('src/IggyTelemetry')
