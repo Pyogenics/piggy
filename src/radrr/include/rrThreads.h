@@ -24,32 +24,7 @@
  * SOFTWARE.
  */
 
-// Pyogenics:   I am unsure if we should make this broadly compatible for drop in source replacement, e.g. instead of just dll and lib replacement
-//              we could allow developers to just simply drop the source library into the code instead and use our headers. Not sure how much work
-//              that would require ontop of just the "good enough" implementation we have now, realistically the amount of effort to use these
-//              headers over the original RAD ones is probably minimal.
+#ifndef __RADRR_THREADSH__
+#define __RADRR_THREADSH__
 
-// We mirror the RAD include defines to avoid collision with the original library in case of a broken drop in replacement
-#ifndef __RADRR_COREH__
-#define __RADRR_COREH__
-
-#include <stdint.h>
-
-//
-// typedefs
-//
-typedef int8_t      S8;
-typedef uint8_t     U8;
-typedef int16_t     S16;
-typedef uint16_t    U16;
-typedef int32_t     S32;
-typedef uint32_t    U32;
-typedef int64_t     S64;
-typedef uint64_t    U64;
-
-typedef float       F32;
-typedef double      F64;
-
-typedef S32         RRBOOL;
-
-#endif //__RADRR_COREH__
+#endif //__RADRR_THREADSH__
