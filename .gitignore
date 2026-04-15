@@ -1,3 +1,11 @@
+# Editor files
+.vs/
+.vscode/
+
+# Build directories
+[Bb]uild/
+builddir/
+
 # Prerequisites
 *.d
 
